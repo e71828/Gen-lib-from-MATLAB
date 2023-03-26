@@ -8,7 +8,7 @@ STEP:
 
 ```bash
 # copy the `CMakeLists.txt` to `eigmatrix/for_redistribution_files_only`
-copy CMakeLists.txt eigmatrix/for_redistribution_files_only/
+cp CMakeLists.txt eigmatrix/for_redistribution_files_only/
 cd eigmatrix/for_redistribution_files_only/
 cmake -Bbuild -H. -G "MinGW Makefiles"
 cmake --build build/
