@@ -1,10 +1,10 @@
 //
-// MATLAB Compiler: 8.5 (R2022b)
-// Date: Sun Mar 26 11:22:22 2023
+// MATLAB Compiler: 8.6 (R2023a)
+// Date: Sun Jun 18 22:07:38 2023
 // Arguments:
 // "-B""macro_default""-W""cpplib:eigmatrix,all,version=1.0""-T""link:lib""-d""C
-// :\Users\admin\Documents\MATLAB\matrix\eigmatrix\for_testing""-v""C:\Users\adm
-// in\Documents\MATLAB\matrix\eigmatrix.m"
+// :\Users\admin\CLionProjects\Gen-lib-from-MATLAB\eigmatrix\for_testing""-v""C:
+// \Users\admin\CLionProjects\Gen-lib-from-MATLAB\eigmatrix.m"
 //
 
 #ifndef eigmatrix_h
@@ -35,7 +35,6 @@ bool MW_CALL_CONV eigmatrixInitializeWithHandlers(
 
 extern LIB_eigmatrix_C_API 
 bool MW_CALL_CONV eigmatrixInitialize(void);
-
 extern LIB_eigmatrix_C_API 
 void MW_CALL_CONV eigmatrixTerminate(void);
 

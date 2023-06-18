@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="C:\Users\admin\Documents\MATLAB\matrix\eigmatrix.prj" location="C:\Users\admin\Documents\MATLAB\matrix" name="eigmatrix" target="target.ezdeploy.library" target-name="Library Compiler">
+  <configuration file="C:\Users\admin\CLionProjects\Gen-lib-from-MATLAB\eigmatrix.prj" location="C:\Users\admin\CLionProjects\Gen-lib-from-MATLAB" name="eigmatrix" target="target.ezdeploy.library" target-name="Library Compiler">
     <param.appname>eigmatrix</param.appname>
     <param.icon />
     <param.icons />
@@ -26,8 +26,8 @@
     <param.support.packages />
     <param.namespace />
     <param.classorg />
-    <param.web.mcr>false</param.web.mcr>
-    <param.package.mcr>true</param.package.mcr>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
     <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
@@ -46,7 +46,7 @@
     <param.net.tsa.namespace />
     <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
     <param.net.tsa.metadata />
-    <param.net.tsa.metadata.assembly>C:\Users\admin\Documents\MATLAB\matrix</param.net.tsa.metadata.assembly>
+    <param.net.tsa.metadata.assembly>C:\Users\admin\CLionProjects\Gen-lib-from-MATLAB</param.net.tsa.metadata.assembly>
     <param.net.saved.interface />
     <param.cpp.api>option.cpp.all</param.cpp.api>
     <unset>
@@ -74,6 +74,8 @@
       <param.support.packages />
       <param.namespace />
       <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
       <param.no.mcr />
       <param.web.mcr.name />
       <param.package.mcr.name />
@@ -114,14 +116,14 @@
     </fileset.examples>
     <fileset.documentation />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="eigmatrix.dll" optional="false">C:\Users\admin\Documents\MATLAB\matrix\eigmatrix\for_testing\eigmatrix.dll</file>
-      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="eigmatrix.lib" optional="false">C:\Users\admin\Documents\MATLAB\matrix\eigmatrix\for_testing\eigmatrix.lib</file>
-      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="v2" optional="false">C:\Users\admin\Documents\MATLAB\matrix\eigmatrix\for_testing\v2</file>
-      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="eigmatrix.h" optional="false">C:\Users\admin\Documents\MATLAB\matrix\eigmatrix\for_testing\eigmatrix.h</file>
+      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="eigmatrix.lib" optional="false">C:\Users\admin\CLionProjects\Gen-lib-from-MATLAB\eigmatrix\for_testing\eigmatrix.lib</file>
+      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="eigmatrix.dll" optional="false">C:\Users\admin\CLionProjects\Gen-lib-from-MATLAB\eigmatrix\for_testing\eigmatrix.dll</file>
+      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="v2" optional="false">C:\Users\admin\CLionProjects\Gen-lib-from-MATLAB\eigmatrix\for_testing\v2</file>
+      <file location="${PROJECT_ROOT}\eigmatrix\for_testing" name="eigmatrix.h" optional="false">C:\Users\admin\CLionProjects\Gen-lib-from-MATLAB\eigmatrix\for_testing\eigmatrix.h</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2022b</root>
+      <root>C:\Program Files\MATLAB\R2023a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
